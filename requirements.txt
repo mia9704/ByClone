@@ -1,0 +1,6 @@
+tensorflow[and-cuda]==2.15.0.post1
+keras==2.15.0
+lxml==4.9.3
+numpy==1.23.5
+pandas==2.2.0
+scikit-learn==1.4.0

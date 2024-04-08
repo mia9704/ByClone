@@ -86,7 +86,7 @@ test_path = "Test-Obf/"
 
 [train_source1_seq, train_source2_seq, val_source1_seq, val_source2_seq, test_source1_seq, test_source2_seq, t] = vectorize_dataset(X_train, X_val, X_test)
 
-embedding_layer = create_instruction2vec_layer(t, train_source1_seq)
+embedding_layer = create_word2vec_layer(t, train_source1_seq)
 
 model = siamese_model(train_source1_seq, train_source2_seq, embedding_layer)
 

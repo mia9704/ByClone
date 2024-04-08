@@ -1,5 +1,5 @@
 # ByClone
-ByClone is a deep learning approach to detect clones in Java bytecode in Android applications.
+ByClone is a deep learning approach to detect clones in Java bytecode in Android applications. 
 
 ![ByClone Process Diagram](https://github.com/mia9704/BytecodeSimilarity/blob/main/ByClone.png?raw=true)
 
@@ -28,9 +28,3 @@ ByClone is a deep learning approach to detect clones in Java bytecode in Android
 pip install -r requirements.txt
 python ByClone.py
 ```
-
-## Create Bytecode Embeddings for ByClone
-The bytecode embeddings are already created and are available in the file named "bytecode_embeddings.txt". 
-However if you would like to create your own embeddings, you can run the following commands.
-
-```python

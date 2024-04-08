@@ -1,7 +1,7 @@
 # ByClone
 ByClone is a deep learning approach to detect clones in Java bytecode in Android applications. 
 
-![ByClone Process Diagram](https://github.com/mia9704/BytecodeSimilarity/blob/main/ByClone.png?raw=true)
+![ByClone Process Diagram](https://github.com/mia9704/ByClone/blob/main/ByClone.png?raw=true)
 
 ## Requirements
 

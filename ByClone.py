@@ -76,10 +76,12 @@ def print_scores(actual_arr, preds_arr):
   print("f1_score", f1_score(actual_is_clone, preds_is_clone))
 
 
-root_path = "/<your_path>/ByClone/"
+root_path = "/<your_path>/ByClone_Dataset_Preprocessed/"
 
 train_path = "Train-Build/"
 val_path = "Val-Build/"
+
+#Test-Obf contains obfuscated test dataset. Test-UnObf contains un-obfuscated test dataset
 test_path = "Test-Obf/"
 
 [X_train, X_val, X_test, y_train, y_val, y_test] = prepare_data(root_path, train_path, val_path, test_path)

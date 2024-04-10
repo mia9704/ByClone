@@ -28,3 +28,5 @@ ByClone is a deep learning approach to detect clones in Java bytecode in Android
 pip install -r requirements.txt
 python ByClone.py
 ```
+
+The dataset used for ByClone is available at https://zenodo.org/records/10719780.

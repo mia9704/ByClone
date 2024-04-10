@@ -8,9 +8,9 @@ def read_bytecode_corpus(corpus):
 
 	return instruction_list
 
-def word2vec_model(asmcode_corpus, filename):
+def word2vec_model(bytecode_corpus, filename):
 
-	word_list = read_bytecode_corpus(asmcode_corpus)
+	word_list = read_bytecode_corpus(bytecode_corpus)
 
 	model = Word2Vec(word_list, vector_size=300, window=128, min_count=1, workers=4, epochs = 10)
 

@@ -14,7 +14,7 @@ def glove_model(bytecode_corpus, filename):
     corpus = Corpus()
     corpus.fit(word_list, window=10)
 
-    glove = Glove(no_components=vectorsize, learning_rate=0.01)
+    glove = Glove(no_components=300, learning_rate=0.01)
     glove.fit(corpus.matrix, epochs=50, no_threads=4, verbose=True)
     glove.add_dictionary(corpus.dictionary)
 

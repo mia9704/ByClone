@@ -26,4 +26,4 @@ with open("bytecode_corpus.txt", "r") as bytecode_corpus_file:
     bytecode_corpus = bytecode_corpus_file.read()
 
 with open("bytecode_embeddings_word2vec.txt", "w") as text_file:
-    text_file.write(word2vec_model(bytecode_corpus, "fasttext.model"))
+    text_file.write(word2vec_model(bytecode_corpus, "word2vec.model"))
